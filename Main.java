@@ -14,21 +14,6 @@ public class Main {
 		System.out.println("(g) quit");
 	}
 
-	/**
-	 * add lowercase letters to coordinates - DONE
-	 * 
-	 * incorporate hashmap to products (key = coordinate) delete + insert in array
-	 * and in hashmap each time
-	 * 
-	 * get rid of bank account; (a) deposit money into vending machine (keep balance
-	 * of how much money is put in and print each time) - DONE
-	 * 
-	 * 
-	 * 
-	 * @param sc
-	 * @param current
-	 */
-
 	public static void commands(Scanner sc, String current) {
 		while (true) {
 			if (current.equals("a") || current.equals("A")) { // deposit money
