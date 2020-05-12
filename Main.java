@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// test
 public class Main {
 	private static Product[][] machine = new Product[6][6];
 	private static int balance = 0;
